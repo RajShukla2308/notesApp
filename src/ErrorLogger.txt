@@ -1,0 +1,796 @@
+Mon Apr 19 2021 16:23:28 GMT+0530 (India Standard Time)-Error: Booking Could not be deleted
+    at db.deleteBooking.then.deletedid (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:63:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 19 2021 16:28:42 GMT+0530 (India Standard Time)-Error: Booking Could not be deleted
+    at db.deleteBooking.then.deletedid (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:63:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 19 2021 16:30:02 GMT+0530 (India Standard Time)-ReferenceError: deleteid is not defined
+    at db.deleteBooking.then.deletedid (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:62:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 19 2021 16:32:48 GMT+0530 (India Standard Time)-ReferenceError: deleteid is not defined
+    at db.deleteBooking.then.deletedid (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:62:21)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 19 2021 16:38:20 GMT+0530 (India Standard Time)-ReferenceError: deleteid is not defined
+    at db.deleteBooking.then.deletedid (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:62:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 19 2021 16:42:51 GMT+0530 (India Standard Time)-ReferenceError: deleteid is not defined
+    at db.deleteBooking.then.deletedid (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:62:27)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 19 2021 16:44:34 GMT+0530 (India Standard Time)-Error: Booking Could not be deleted
+    at db.deleteBooking.then (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:64:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 19 2021 16:46:19 GMT+0530 (India Standard Time)-Error: Booking Could not be deleted
+    at db.deleteBooking.then (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:64:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 19 2021 16:47:06 GMT+0530 (India Standard Time)-Error: Booking Could not be deleted
+    at db.deleteBooking.then (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:64:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 19 2021 16:48:28 GMT+0530 (India Standard Time)-Error: Booking Could not be deleted
+    at db.deleteBooking.then (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:64:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 11:12:11 GMT+0530 (India Standard Time)-Error: Flight unavailable or cancelled
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:15:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 11:18:08 GMT+0530 (India Standard Time)-Error: Error in Flight id
+    at Object.Validator.validateFlightId (C:\Users\Raj Shukla\Desktop\bookAirBA\src\utilities\validator.js:6:18)
+    at Object.fBookingService.bookFlight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:12:15)
+    at routing.post (C:\Users\Raj Shukla\Desktop\bookAirBA\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+Wed Apr 21 2021 11:18:22 GMT+0530 (India Standard Time)-Error: Flight unavailable or cancelled
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:15:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 11:18:44 GMT+0530 (India Standard Time)-Error: Requested number of Seats unavailable
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:18:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:44:22 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:44:26 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:44:33 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:44:47 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:45:34 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:51:10 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:55:29 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:55:52 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:56:02 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:56:05 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:56:13 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:57:55 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 13:58:54 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 14:00:30 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 14:00:48 GMT+0530 (India Standard Time)-Error: No Bookings Done in Any Flight
+    at db.getAllBookings.then.bookings (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:51:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 14:29:57 GMT+0530 (India Standard Time)-Error: Flight unavailable or cancelled
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:33:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 14:45:36 GMT+0530 (India Standard Time)-Error: Flight unavailable or cancelled
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:33:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Wed Apr 21 2021 14:48:22 GMT+0530 (India Standard Time)-Error: Flight unavailable or cancelled
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:33:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 13:29:10 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\Raj Shukla\Desktop\bookAirBA\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:12:15)
+    at routing.post (C:\Users\Raj Shukla\Desktop\bookAirBA\src\routes\routing.js:25:23)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+Thu Apr 22 2021 13:33:02 GMT+0530 (India Standard Time)-CastError: Cast to Number failed for value "undefined" at path "bookingId" for model "FlightBooking"
+    at model.Query.exec (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\mongoose\lib\query.js:4408:21)
+    at model.Query.Query.then (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\mongoose\lib\query.js:4502:15)
+    at dbModel.getBookingCollection.then.model (C:\Users\Raj Shukla\Desktop\bookAirBA\src\model\users.js:70:133)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 13:33:35 GMT+0530 (India Standard Time)-CastError: Cast to Number failed for value "undefined" at path "bookingId" for model "FlightBooking"
+    at model.Query.exec (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\mongoose\lib\query.js:4408:21)
+    at model.Query.Query.then (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\mongoose\lib\query.js:4502:15)
+    at dbModel.getBookingCollection.then.model (C:\Users\Raj Shukla\Desktop\bookAirBA\src\model\users.js:70:133)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 13:38:00 GMT+0530 (India Standard Time)-CastError: Cast to Number failed for value "undefined" at path "bookingId" for model "FlightBooking"
+    at model.Query.exec (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\mongoose\lib\query.js:4408:21)
+    at model.Query.Query.then (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\mongoose\lib\query.js:4502:15)
+    at dbModel.getBookingCollection.then.model (C:\Users\Raj Shukla\Desktop\bookAirBA\src\model\users.js:70:133)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 13:41:34 GMT+0530 (India Standard Time)-CastError: Cast to Number failed for value "undefined" at path "bookingId" for model "FlightBooking"
+    at model.Query.exec (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\mongoose\lib\query.js:4408:21)
+    at model.Query.Query.then (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\mongoose\lib\query.js:4502:15)
+    at dbModel.getBookingCollection.then.model (C:\Users\Raj Shukla\Desktop\bookAirBA\src\model\users.js:70:133)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 13:44:52 GMT+0530 (India Standard Time)-CastError: Cast to Number failed for value "NaN" at path "totalAmount"
+    at model.Query.exec (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\mongoose\lib\query.js:4408:21)
+    at model.Query.Query.then (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\mongoose\lib\query.js:4502:15)
+    at dbModel.getBookingCollection.then.model (C:\Users\Raj Shukla\Desktop\bookAirBA\src\model\users.js:70:133)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 13:46:06 GMT+0530 (India Standard Time)-CastError: Cast to Number failed for value "NaN" at path "totalAmount"
+    at model.Query.exec (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\mongoose\lib\query.js:4408:21)
+    at model.Query.Query.then (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\mongoose\lib\query.js:4502:15)
+    at dbModel.getBookingCollection.then.model (C:\Users\Raj Shukla\Desktop\bookAirBA\src\model\users.js:70:133)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 13:51:43 GMT+0530 (India Standard Time)-Error: Requested number of Seats unavailable
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:36:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 14:02:56 GMT+0530 (India Standard Time)-Error: Requested number of Seats unavailable
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:36:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 14:09:42 GMT+0530 (India Standard Time)-Error: Requested number of Seats unavailable
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:18:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 14:12:50 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\Raj Shukla\Desktop\bookAirBA\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:12:15)
+    at routing.post (C:\Users\Raj Shukla\Desktop\bookAirBA\src\routes\routing.js:25:23)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+Thu Apr 22 2021 14:14:24 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\Raj Shukla\Desktop\bookAirBA\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:12:15)
+    at routing.post (C:\Users\Raj Shukla\Desktop\bookAirBA\src\routes\routing.js:25:23)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+Thu Apr 22 2021 14:15:14 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'length' of undefined
+    at Object.Validator.validateFlightId (C:\Users\Raj Shukla\Desktop\bookAirBA\src\utilities\validator.js:5:18)
+    at Object.fBookingService.bookFlight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:12:15)
+    at routing.post (C:\Users\Raj Shukla\Desktop\bookAirBA\src\routes\routing.js:25:23)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+Thu Apr 22 2021 14:31:55 GMT+0530 (India Standard Time)-Error: Flight unavailable or cancelled
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:15:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 14:31:59 GMT+0530 (India Standard Time)-Error: Flight unavailable or cancelled
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:15:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 14:32:04 GMT+0530 (India Standard Time)-Error: Flight unavailable or cancelled
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:15:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 15:06:24 GMT+0530 (India Standard Time)-ReferenceError: flights is not defined
+    at db.getFlights.then.flgihts (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:58:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 15:07:54 GMT+0530 (India Standard Time)-ReferenceError: flights is not defined
+    at db.getFlights.then.flgihts (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:58:9)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 15:09:09 GMT+0530 (India Standard Time)-ReferenceError: flights is not defined
+    at db.getFlights.then.flgihts (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:58:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 15:10:52 GMT+0530 (India Standard Time)-ReferenceError: flights is not defined
+    at db.getFlights.then.flgihts (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:58:26)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 15:59:45 GMT+0530 (India Standard Time)-Error: Error in Flight id
+    at Object.Validator.validateFlightId (C:\Users\Raj Shukla\Desktop\bookAirBA\src\utilities\validator.js:6:18)
+    at Object.fBookingService.bookFlight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:12:15)
+    at routing.post (C:\Users\Raj Shukla\Desktop\bookAirBA\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+Thu Apr 22 2021 15:59:54 GMT+0530 (India Standard Time)-Error: Error in Flight id
+    at Object.Validator.validateFlightId (C:\Users\Raj Shukla\Desktop\bookAirBA\src\utilities\validator.js:6:18)
+    at Object.fBookingService.bookFlight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:12:15)
+    at routing.post (C:\Users\Raj Shukla\Desktop\bookAirBA\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+Thu Apr 22 2021 16:00:51 GMT+0530 (India Standard Time)-Error: Error in Flight id
+    at Object.Validator.validateFlightId (C:\Users\Raj Shukla\Desktop\bookAirBA\src\utilities\validator.js:6:18)
+    at Object.fBookingService.bookFlight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:12:15)
+    at routing.post (C:\Users\Raj Shukla\Desktop\bookAirBA\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+Thu Apr 22 2021 16:00:56 GMT+0530 (India Standard Time)-Error: Error in Flight id
+    at Object.Validator.validateFlightId (C:\Users\Raj Shukla\Desktop\bookAirBA\src\utilities\validator.js:6:18)
+    at Object.fBookingService.bookFlight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:12:15)
+    at routing.post (C:\Users\Raj Shukla\Desktop\bookAirBA\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+Thu Apr 22 2021 16:01:51 GMT+0530 (India Standard Time)-Error: Error in Flight id
+    at Object.Validator.validateFlightId (C:\Users\Raj Shukla\Desktop\bookAirBA\src\utilities\validator.js:6:18)
+    at Object.fBookingService.bookFlight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:12:15)
+    at routing.post (C:\Users\Raj Shukla\Desktop\bookAirBA\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+Thu Apr 22 2021 16:02:21 GMT+0530 (India Standard Time)-Error: Error in Flight id
+    at Object.Validator.validateFlightId (C:\Users\Raj Shukla\Desktop\bookAirBA\src\utilities\validator.js:6:18)
+    at Object.fBookingService.bookFlight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:12:15)
+    at routing.post (C:\Users\Raj Shukla\Desktop\bookAirBA\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\bookAirBA\node_modules\express\lib\router\index.js:335:12)
+Thu Apr 22 2021 16:10:24 GMT+0530 (India Standard Time)-Error: Requested number of Seats unavailable
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:18:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Thu Apr 22 2021 16:10:47 GMT+0530 (India Standard Time)-Error: Flight unavailable or cancelled
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:15:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 14:10:06 GMT+0530 (India Standard Time)-Error: Flight unavailable or cancelled
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:15:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 14:36:21 GMT+0530 (India Standard Time)-Error: Requested number of Seats unavailable
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:18:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 14:37:49 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'bookingId' of undefined
+    at model.aggregate.then.id (C:\Users\Raj Shukla\Desktop\bookAirBA\src\model\users.js:10:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 14:38:55 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'bookingId' of undefined
+    at model.aggregate.then.id (C:\Users\Raj Shukla\Desktop\bookAirBA\src\model\users.js:10:31)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 14:40:01 GMT+0530 (India Standard Time)-Error: Requested number of Seats unavailable
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:18:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 14:41:40 GMT+0530 (India Standard Time)-Error: Requested number of Seats unavailable
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:18:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 15:03:31 GMT+0530 (India Standard Time)-Error: Flight unavailable or cancelled
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:15:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 15:10:38 GMT+0530 (India Standard Time)-Error: Requested number of Seats unavailable
+    at db.checkavailability.then.flight (C:\Users\Raj Shukla\Desktop\bookAirBA\src\service\users.js:18:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 16:25:05 GMT+0530 (India Standard Time)-ReferenceError: fid is not defined
+    at model.create.then.saved (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\users.js:23:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 16:27:09 GMT+0530 (India Standard Time)-ReferenceError: fid is not defined
+    at model.create.then.saved (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\users.js:24:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 16:28:39 GMT+0530 (India Standard Time)-ReferenceError: fid is not defined
+    at model.create.then.saved (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\users.js:25:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 16:30:27 GMT+0530 (India Standard Time)-ValidationError: Notes validation failed: noteId: Cast to Number failed for value "NaN" at path "noteId"
+    at model.Document.invalidate (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\document.js:2703:32)
+    at model.$set (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\document.js:1319:12)
+    at model.$set (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\document.js:1023:16)
+    at model.Document (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:105:12)
+    at new model (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:4727:15)
+    at toExecute.push.callback (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:3065:22)
+    at toExecute.forEach (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:3101:7)
+    at Array.forEach (<anonymous>)
+    at db.base._promiseOrCallback.cb (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:3100:15)
+    at Promise (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5)
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\index.js:1152:10)
+    at Function.create (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:3035:23)
+    at flightBookingDb.generateId.then.nid (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\users.js:23:26)
+Fri Apr 23 2021 16:33:48 GMT+0530 (India Standard Time)-ValidationError: Notes validation failed: noteId: Cast to Number failed for value "NaN" at path "noteId"
+    at model.Document.invalidate (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\document.js:2703:32)
+    at model.$set (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\document.js:1319:12)
+    at model.$set (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\document.js:1023:16)
+    at model.Document (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:105:12)
+    at new model (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:4727:15)
+    at toExecute.push.callback (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:3065:22)
+    at toExecute.forEach (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:3101:7)
+    at Array.forEach (<anonymous>)
+    at db.base._promiseOrCallback.cb (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:3100:15)
+    at Promise (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5)
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\index.js:1152:10)
+    at Function.create (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:3035:23)
+    at flightBookingDb.generateId.then.nid (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\users.js:23:26)
+Fri Apr 23 2021 17:07:36 GMT+0530 (India Standard Time)-ValidationError: Notes validation failed: noteId: Cast to Number failed for value "NaN" at path "noteId"
+    at model.Document.invalidate (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\document.js:2703:32)
+    at model.$set (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\document.js:1319:12)
+    at model.$set (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\document.js:1023:16)
+    at model.Document (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:105:12)
+    at new model (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:4727:15)
+    at toExecute.push.callback (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:3065:22)
+    at toExecute.forEach (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:3101:7)
+    at Array.forEach (<anonymous>)
+    at db.base._promiseOrCallback.cb (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:3100:15)
+    at Promise (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:5)
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\helpers\promiseOrCallback.js:30:10)
+    at Mongoose._promiseOrCallback (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\index.js:1152:10)
+    at Function.create (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\mongoose\lib\model.js:3035:23)
+    at flightBookingDb.generateId.then.nid (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\users.js:23:26)
+Fri Apr 23 2021 17:11:14 GMT+0530 (India Standard Time)-ReferenceError: fid is not defined
+    at model.create.then.saved (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\users.js:25:30)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 17:20:57 GMT+0530 (India Standard Time)-TypeError: db.generateId is not a function
+    at Object.fBookingService.addNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\users.js:13:26)
+    at routing.post (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:24:23)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+Fri Apr 23 2021 17:44:01 GMT+0530 (India Standard Time)-ReferenceError: flightBookingServ is not defined
+    at routing.get (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:27:5)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at requestLogger (C:\Users\Raj Shukla\Desktop\NotesBA\src\utilities\requestLogger.js:8:5)
+Fri Apr 23 2021 17:45:54 GMT+0530 (India Standard Time)-TypeError: db.deleteNote is not a function
+    at Object.notesService.deleteNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:42:15)
+    at routing.delete (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:34:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:284:7
+Fri Apr 23 2021 17:47:13 GMT+0530 (India Standard Time)-Error: Note Could not be deleted
+    at db.deleteNote.then.id (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:44:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 17:48:10 GMT+0530 (India Standard Time)-Error: Note Could not be deleted
+    at db.deleteNote.then.id (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:45:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 17:48:50 GMT+0530 (India Standard Time)-Error: Note Could not be deleted
+    at db.deleteNote.then.id (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:45:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 17:52:11 GMT+0530 (India Standard Time)-Error: Note Could not be deleted
+    at db.deleteNote.then.id (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:45:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Fri Apr 23 2021 17:54:08 GMT+0530 (India Standard Time)-Error: Note Could not be deleted
+    at db.deleteNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:45:23)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 13:37:50 GMT+0530 (India Standard Time)-ReferenceError: maxId is not defined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:11:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 13:40:49 GMT+0530 (India Standard Time)-TypeError: Cannot set property 'noteId' of undefined
+    at notesDb.generateId.then.nid (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:20:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 13:43:25 GMT+0530 (India Standard Time)-TypeError: Cannot set property 'noteId' of undefined
+    at notesDb.generateId.then.nid (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:21:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 13:45:03 GMT+0530 (India Standard Time)-TypeError: Cannot set property 'noteId' of undefined
+    at notesDb.generateId.then.nid (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:20:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 15:30:42 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:9:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 15:34:58 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:9:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 15:40:26 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:9:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 15:41:02 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:9:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 15:42:19 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:9:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 15:43:01 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:9:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 15:44:32 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:9:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 15:46:12 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:9:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 15:50:41 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:13:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 15:53:43 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:9:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 16:00:32 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:10:28)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 16:02:50 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:13:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 16:04:12 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:14:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 16:05:43 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:14:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Sat Apr 24 2021 16:10:17 GMT+0530 (India Standard Time)-TypeError: Cannot read property 'noteId' of undefined
+    at model.aggregate.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:15:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 26 2021 16:19:55 GMT+0530 (India Standard Time)-Error: update for 608690c9f605513830b840ee is failed!
+    at db.updateNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 26 2021 16:20:00 GMT+0530 (India Standard Time)-Error: update for 608690c9f605513830b840ee is failed!
+    at db.updateNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 26 2021 16:20:22 GMT+0530 (India Standard Time)-Error: update for 608697edf605513830b840f1 is failed!
+    at db.updateNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 26 2021 16:22:02 GMT+0530 (India Standard Time)-Error: update for 608697edf605513830b840f1 is failed!
+    at db.updateNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 26 2021 16:27:59 GMT+0530 (India Standard Time)-Error: update for 608690c9f605513830b840ee is failed!
+    at db.updateNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 26 2021 16:30:01 GMT+0530 (India Standard Time)-Error: update for 608690c9f605513830b840ee is failed!
+    at db.updateNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 26 2021 16:33:13 GMT+0530 (India Standard Time)-Error: update for 608690c9f605513830b840ee is failed!
+    at db.updateNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 26 2021 16:35:00 GMT+0530 (India Standard Time)-Error: update for 608690c9f605513830b840ee is failed!
+    at db.updateNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 26 2021 16:38:48 GMT+0530 (India Standard Time)-ReferenceError: id is not defined
+    at Object.notesDb.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:40:17)
+    at Object.notesService.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:18:23)
+    at routing.put (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:43:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+Mon Apr 26 2021 16:39:08 GMT+0530 (India Standard Time)-ReferenceError: id is not defined
+    at Object.notesDb.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:40:17)
+    at Object.notesService.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:18:23)
+    at routing.put (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:43:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+Mon Apr 26 2021 16:39:14 GMT+0530 (India Standard Time)-ReferenceError: id is not defined
+    at Object.notesDb.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:40:17)
+    at Object.notesService.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:18:23)
+    at routing.put (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:43:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+Mon Apr 26 2021 16:39:33 GMT+0530 (India Standard Time)-ReferenceError: id is not defined
+    at Object.notesDb.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:40:17)
+    at Object.notesService.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:18:23)
+    at routing.put (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:43:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+Mon Apr 26 2021 16:39:33 GMT+0530 (India Standard Time)-ReferenceError: id is not defined
+    at Object.notesDb.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:40:17)
+    at Object.notesService.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:18:23)
+    at routing.put (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:43:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+Mon Apr 26 2021 16:40:39 GMT+0530 (India Standard Time)-ReferenceError: id is not defined
+    at Object.notesDb.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:40:17)
+    at Object.notesService.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:18:23)
+    at routing.put (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:43:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+Mon Apr 26 2021 16:40:45 GMT+0530 (India Standard Time)-ReferenceError: id is not defined
+    at Object.notesDb.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:40:17)
+    at Object.notesService.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:18:23)
+    at routing.put (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:43:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+Mon Apr 26 2021 16:41:44 GMT+0530 (India Standard Time)-ReferenceError: id is not defined
+    at Object.notesDb.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:40:17)
+    at Object.notesService.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:18:23)
+    at routing.put (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:43:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+Mon Apr 26 2021 16:42:24 GMT+0530 (India Standard Time)-ReferenceError: id is not defined
+    at Object.notesDb.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:40:17)
+    at Object.notesService.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:18:23)
+    at routing.put (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:43:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+Mon Apr 26 2021 16:43:50 GMT+0530 (India Standard Time)-ReferenceError: id is not defined
+    at Object.notesDb.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:40:17)
+    at Object.notesService.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:18:23)
+    at routing.put (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:43:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+Mon Apr 26 2021 16:44:40 GMT+0530 (India Standard Time)-ReferenceError: id is not defined
+    at Object.notesDb.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:40:17)
+    at Object.notesService.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:18:23)
+    at routing.put (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:44:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+Mon Apr 26 2021 16:45:21 GMT+0530 (India Standard Time)-ReferenceError: id is not defined
+    at Object.notesDb.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\model\notesModel.js:40:17)
+    at Object.notesService.updateNote (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:23)
+    at routing.put (C:\Users\Raj Shukla\Desktop\NotesBA\src\routes\routing.js:43:18)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:354:14)
+    at param (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:365:14)
+    at Function.process_params (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:410:3)
+    at next (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\Raj Shukla\Desktop\NotesBA\node_modules\express\lib\router\index.js:317:13)
+Mon Apr 26 2021 16:46:40 GMT+0530 (India Standard Time)-Error: update for 60869d27f605513830b840f4 is failed!
+    at db.updateNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 26 2021 16:46:59 GMT+0530 (India Standard Time)-Error: update for 60869d27f605513830b840f4 is failed!
+    at db.updateNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 26 2021 16:47:29 GMT+0530 (India Standard Time)-Error: update for 60869d27f605513830b840f4 is failed!
+    at db.updateNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+Mon Apr 26 2021 16:48:28 GMT+0530 (India Standard Time)-Error: update for 60869d27f605513830b840f4 is failed!
+    at db.updateNote.then.data (C:\Users\Raj Shukla\Desktop\NotesBA\src\service\notesService.js:19:33)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
