@@ -10,11 +10,10 @@ Steps for making the code work:
 
 2)In the terminal , type 'npm init';
 
-3) Fill the answers according to questions. when it is asking starting of the file , enter app.js(if you dont know anything , just keep pressing enter key)
+3)Fill the answers according to questions. when it is asking starting of the file , enter app.js(if you dont know anything , just keep pressing enter key)
 
 4)it will install all the dependencies for the project including 'node modules' folder. if it doesnt , please type command 'npm install'.Now you will see
     the folder 'node modules'.
-    
 5)Change the 'src' folder of project with downloaded 'src' folder. / copy this src folder and paste it there.
 
-6) open src folder in terminal and type command 'node app.js' , it will start the project.
+6)open src folder in terminal and type command 'node app.js' , it will start the project.
